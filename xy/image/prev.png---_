@@ -1,0 +1,12 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>这是一个错误页面|this is error page</title>
+
+<style>*{margin:0px;padding:0px;border:0px;}</style></head><body><iframe src="#" height="100%" width="100%" id="errorpage" ></iframe>
+<script>
+var errorcode="404";
+document.title=errorcode+"错误";
+errorpage=document.getElementById('errorpage');
+errorpage.src="https://system-pages.chinesestack.com/"+errorcode;
+</script>
+</body></html>

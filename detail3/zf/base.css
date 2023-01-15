@@ -1,0 +1,176 @@
+body, dl, dd, ul, ol, h1, h2, h3, h4, h5, h6, pre, form, input, textarea, p, hr, thead, tbody, tfoot, th, td { margin: 0; padding: 0; font-family: '寰蒋闆呴粦','Microsoft YaHei',Arial, Verdana, sans-serif; }
+
+ul, ol { list-style: none; }
+
+a { text-decoration: none; }
+
+
+
+/*棣栭〉*/
+.flex-wrap { display: -webkit-box; display: -webkit-flex; display: flex; }
+
+.flex-con { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; }
+
+.flex-con0 { -webkit-box-flex: 0; -webkit-flex: 0; flex: 0; }
+
+.flex-vertical { -webkit-box-orient: vertical; -webkit-flex-flow: column; flex-flow: column; }
+
+.border-t,
+.border-b { position: relative; }
+
+.border-t:before,
+.border-b:after { content: ' '; position: absolute; left: 0; top: 0; background: #ddd; right: 0; height: 1px; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); -webkit-transform-origin: 0 0; transform-origin: 0 0; }
+
+.border-b:after { top: auto; bottom: 0; }
+body { background: #f2f2f2; }
+
+header { display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; position: fixed; z-index: 9999; width: 100%; top: 0; border-bottom: #eee solid 1px; padding: 0.25rem 0; text-align: center; background: #fff; }
+
+.h_l { flex-basis: 1.4rem; flex-shrink: 0; height: 100%; margin-left: .3rem; }
+
+.h_c { flex-basis: 100%; flex-shrink: 1; height: 100%; line-height: 1rem; display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; padding-top: 0.125rem; }
+
+.h_r { flex-basis: 1rem; flex-shrink: 0; height: 0.75rem; background: url("rp.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/rp.png*/ no-repeat center 0.45rem; background-size: 60%; margin-right: .3rem; }
+
+.ico42 { flex-basis: 0.75rem; height: 0.75rem; flex-shrink: 0; background: url("rl.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/rl.png*/ no-repeat center center; background-size: 100%; }
+
+.ico43 { flex-basis: 0.75rem; height: 0.75rem; flex-shrink: 0; background: url("rk.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/rk.png*/ no-repeat center center; background-size: 100%; margin-left: 1rem; margin-right: 1rem; }
+
+.ico44 { flex-basis: 0.75rem; height: 0.75rem; flex-shrink: 0; background: url("rr.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/rr.png*/ no-repeat center center; background-size: 65% }
+
+main { margin-top: 1.1rem; }
+
+.wrap { margin: .32rem .42667rem;background-color: #fff;border-radius: .13333rem;box-shadow: 0 0 24px 0 rgba(59,59,59,.08);}
+
+.wrap_full { background: #fff; }
+
+.title { padding: 0.6rem 0px 0.3rem; font-size: 0.625rem; font-weight: bold; color: #555; }
+
+.price { color: #ff5000; font-size: 0.75rem; }
+
+.price i { font-size: 0.38rem; font-style: normal; }
+
+.expressFee { font-size: 0.38rem; margin-left: 0.2rem; color: #a0a0a0; }
+
+.viewCounts { font-size: 0.38rem; margin-top: 0.25rem; float: right; color: #a0a0a0; }
+
+.cityInfo { padding-bottom: .3rem; }
+
+.cityInfo .cityBadge { font-size: 0.38rem; color: #999; padding: 0.05rem 0.2rem; background: #f8f8f8; border-radius: 10px; }
+
+.wrap-yanji { background: #eaf8ee; color: #1fbf5f; padding: .3rem .3rem; }
+
+.wrap-yanji b { font-size: .5rem; font-weight: bold; }
+
+.yanjiText { margin-left: .75rem; font-size: .4rem; }
+
+.yanjiText:before { content: ''; font-size: 1rem; display: inline-block; width: 0.1rem; height: 0.1rem; background: #1fbf5f; border: 1px solid #1ec727; border-radius: 50%; margin-right: .25rem; position: relative; top: -0.08rem; }
+
+.yanjiMore { float: right; font-size: 0.5rem; padding-top: 0.08rem; }
+
+.wrap-content { margin-top: 0.25rem; padding: 0 0.4rem; background: #fff; }
+
+.contentHeader { padding: 0.45rem 0px; font-size: .55rem; font-weight: bold; color: #444; }
+
+.contentParams { display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; }
+
+.ParamItem { padding: 0.08rem 0px; flex-basis: 50%; flex-grow: 1; font-size: 0.4rem; color: #a0a0a0; }
+
+.detail { padding: 0.28rem 0px; font-size: .5rem; color: #444; }
+
+.detail img { width: 100%; height: auto; }
+
+.detail img:first-child { margin-top: 0.3rem }
+
+/***鐢ㄦ埛璧勬枡 start***/
+.wrap-userInfo { padding: 0.4rem 0.5rem; }
+
+.allInfoBox { padding: 0.35rem; background: #fff; border: 1px solid #eee; border-radius: 5px; -moz-box-shadow: 0px 3px 5px #dfdfdf, 0px -3px 5px #dfdfdf; -webkit-box-shadow: 0px 3px 5px #dfdfdf, 0px -3px 5px #dfdfdf; box-shadow: 0px 3px 5px #dfdfdf, 0px -3px 5px #dfdfdf; }
+
+.userInfoBox { padding: 0.25rem 0px; border-bottom: 1px solid #eee; display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; }
+
+.sellerFace { flex-basis: 1.25rem; height: 1.25rem; flex-shrink: 0; margin-right: 0.3rem; }
+
+.sellerFace img { width: 100%; height: 100%; border-radius: 50%; }
+
+.sellerInfo { flex-basis: 100%; flex-shrink: 1; }
+
+.sellerInfo .sellerId { font-weight: bold; font-size: 0.5rem; color: #333; }
+.sellerInfo .sellerId .goodseller { font-weight: normal; font-size: 0.32rem; color: #fff; display:inline-block; padding:0px 3px; background:#f5784a; border-radius:2px; }
+
+.sellerInfo .sellerComming { font-size: 0.38rem; color: #aaa; padding-top: 0.1rem; }
+
+.userInfoMore { flex-basis: 0.1rem; flex-shrink: 0; padding-top: 0.4rem; color: #888; }
+
+.proInfoBox { padding: 0.25rem 0px 0.1rem 0px; }
+
+.proInfoBox ul { display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; }
+
+.proInfoBox ul li { flex-basis: 25%; width: 25%; overflow: hidden; text-wrap: none; text-align: center; }
+
+.proInfoBox ul li label { display: inline-block; width: 100%; font-weight: bold; font-size: 0.8rem; color: #333; }
+
+.proInfoBox ul li div { font-size: 0.39rem; color: #888; }
+
+.proInfoBox ul li label i { font-size: 0.3rem; font-style: normal; }
+
+.proInfoBox ul li label span.zhima { display: inline-block; width: 45%; height: 0.50rem; text-align: center; padding-top: 0.065rem; padding-left: 0.3rem; /*padding: 0.015rem 0 0.078rem 0.2rem;*/ border-radius: 0.05rem; background: #2fb5a8 url("xinyu.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/xinyu.png*/ no-repeat 0.1rem 0.0275rem; font-size: 9px; font-weight: normal; color: #fff; background-size: 0.5rem; vertical-align: middle; margin-top: 0.2rem; }
+
+.proInfoBox ul li div i { position:  absolute; display: inline-block; width: 0.40rem; height: 0.40rem; line-height:0.48rem; border-radius: 50%; border: 1px solid #aaa; font-size: 0.30rem; color: #aaa; font-style: normal; font-weight: bold; margin-left: 0.1rem; margin-top:0px }
+/***鐢ㄦ埛璧勬枡 End ***/
+
+/***浜掑姩鐗堝潡 Start***/
+.wrap-hudong { padding: 0.5rem 0.3rem 1rem 0.3rem; margin-bottom: 1.5rem; background: #fff; }
+
+.hudongHeader h3 { display: inline-block; width: auto; font-size: 0.5rem; font-weight: bold; color: #333; }
+
+.hudongHeader span.want { display: inline-block; float: right; font-size: 0.45rem; color: #444; padding-right: 0.2rem; }
+
+.hudongHeader span.want i img { display: inline-block; border: 1px solid #eee; padding: 1px; width: 0.55rem; height: 0.55rem; border-radius: 50%; vertical-align: middle; margin-top: -0.08rem; }
+
+.hudongFormBox { padding: 0.38rem 0; width: 100%; display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: no-wrap; justify-content: flex-end; }
+
+.hudongFormBox .face { display: inline-block; flex-shrink: 0; width: 1.20rem; }
+
+.hudongFormBox .face img { width: 1.20rem; height: 1.20rem; border-radius: 50%; border: 1px solid #eee; }
+
+.hudongFormBox .inputBox { flex-shrink: 1; width: 100%; display: inline-block; display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: no-wrap; justify-content: flex-end; position: relative; margin-left: 0.5rem; margin-right: 0.2rem; }
+
+.hudongFormBox .inputBox .inputText { background: #efefef; color: #aaa; font-size: 0.40rem; height: 1.20rem; line-height: 1.20rem; flex-shrink: 1; width: 100%; padding-left: 0.28rem; border-top-left-radius: 0.1rem; border-bottom-left-radius: 0.1rem; }
+
+.hudongFormBox .inputBox .inputText:before { right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(194, 225, 245, 0); border-right-color: #efefef; border-width: 0.2rem; margin-top: -0.25rem; }
+
+.hudongFormBox .inputBox .inputButton { background: #D7473B; color: #fff; font-size: 0.42rem; height: 1.20rem; line-height: 1.20rem; flex-shrink: 0; width: 20%; text-align: center; border-top-right-radius: 0.2rem; border-bottom-right-radius: 0.2rem; }
+
+/***浜掑姩鐗堝潡 End***/
+
+nav.bottomFloat { padding: 0.185rem 0; display: -webkit-flex; /* Safari */ display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; position: fixed; z-index: 9999; width: 100%; bottom: 0; background: #fff; border-top: 1px solid #ccc; }
+
+.buttonItem1 { flex-basis: 36%; flex-shrink: 1; display: inline-flex; }
+.buttonItem1 .woyaomai {  flex:1; text-align: center; padding-top: 0.10rem; }
+.buttonItem1 .woyaomai img.sellerface { width: 0.53rem; height: 0.53rem; vertical-align: top; border-radius: 50% }
+.buttonItem1 .woyaomai img.heart { width: 0.61rem; height: 0.53rem; vertical-align: top; }
+.buttonItem1 .woyaomai img.ask { width: 0.61rem; height: 0.53rem; vertical-align: top; }
+.buttonItem1 .woyaomai .wantBtnText { color: #666; font-size: 0.325rem; }
+
+.buttonItem2 { flex-basis: 33%; flex-shrink: 0; height: auto; }
+.buttonItem2 .button img { width: 0.55rem; height: 0.55rem; vertical-align: middle; border-radius: 50%; border: 1px solid #ccc; padding: 1px; background: #fff; margin-top: 2px; }
+.buttonItem2 .button { margin-left: 0.25rem; margin-right: 0.25rem; background: #Ffa32A; border-radius: 0.1rem; color: #fff; height: 1.15rem; line-height: 1.15rem; font-size: 0.5rem; text-align: center; }
+
+.buttonItem3 { flex-basis: 31%; flex-shrink: 0; height: auto; }
+.buttonItem3 .button { margin-right: 0.35rem; background: #D7473B; border-radius: 0.1rem; color: #fff; height: 1.15rem; line-height: 1.15rem; font-size: 0.5rem; text-align: center; }
+
+/*婕傛诞鍦ㄥ簳閮ㄧ殑鐣欒█娉℃场寮圭獥*/
+.hidden { display: none }
+.fixed{position:fixed;}
+.msgs { bottom: 63px; font-size: 0.42rem; width: 100%; display: ; font-weight:500; }
+.pop { border-bottom: 1px solid #ccc; box-shadow: 0px 2px 2px #999, 0px -2px 2px #999; margin-left: 5px; background: #fff; border-radius: 30px; padding: 7px 8px 5px; line-height: 20px; height: 20px }
+.pop:first-child { flex: 0; flex-basis: auto; }
+.pop:nth-child(2) { flex: 1;  }
+.pop:nth-child(3) { flex-basis: auto; flex-grow: 0; margin-right:15px }
+.pop i { display: inline-block; width: 18px; height: 18px; float: right }
+.icon-45 { background: url("msg.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/msg.png*/; background-position:center center;  background-size:cover }
+
+.pop-btn { position: fixed; bottom: 63px; display: ; width: 31px; height: 31px; right: 5px; border: 1px solid #aaa; margin-left: 5px; transform: rotate(180deg); background: #fff url("r8.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/ysimage/r8.png*/ no-repeat center center; background-size: 50%; border-radius: 50%; }
+.btn-left { transform: rotate(180deg); }
+.btn-right { transform: rotate(0deg); }

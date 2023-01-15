@@ -1,0 +1,155 @@
+.good-tag>.good {
+    width: 68px;
+    position: absolute;
+    top: 70px;
+    z-index: 99999;
+    left: 20px;
+}
+
+.good-tag>.real {
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    z-index: 9999;
+    left: 20px;
+}
+
+.close {
+    display: none;
+}
+
+.closea {
+    display: none;
+}
+
+.opened {
+    display: block;
+}
+
+.custom-indicator {
+    position: absolute;
+}
+
+.list-enter-active {
+    margin-left: -250px;
+}
+
+.xuanran {
+    margin-bottom: 10px;
+}
+
+.zy-intro[data-v-74ba40ca] {
+    background: #fff;
+    margin-top: 2.667vw;
+    margin-bottom: 2.667vw;
+    padding: 1.6vw 4.267vw;
+}
+
+.zy-intro h5[data-v-74ba40ca] {
+    font-size: 4.267vw;
+    color: #111;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 4.8vw;
+    font-weight: 500;
+    height: 10.667vw;
+    line-height: 10.667vw;
+}
+
+.zy-intro .max-wrap[data-v-74ba40ca] {
+    max-height: 213.333vw;
+    overflow: hidden;
+}
+
+.zy-intro .img-wrap[data-v-74ba40ca] {
+    margin: 1.6vw 0;
+    border-radius: 2.133vw;
+}
+
+div,
+form,
+h2,
+h3,
+h4,
+html,
+li,
+p,
+span,
+ul {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.zy-intro .img-wrap img[data-v-74ba40ca] {
+    width: 100%;
+    vertical-align: top;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+.zy-intro .max-wrap[data-v-74ba40ca] {
+    max-height: 213.333vw;
+    overflow: hidden;
+}
+
+.zy-intro .img-wrap[data-v-74ba40ca] {
+    margin: 1.6vw 0;
+    border-radius: 2.133vw;
+}
+
+.zy-intro .show-btn[data-v-74ba40ca] {
+    height: 10.667vw;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-size: 3.467vw;
+    color: #999;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.zy-intro .show-btn img[data-v-74ba40ca] {
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-left: .533vw;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+.zy-intro h5[data-v-74ba40ca] {
+    font-size: 4.267vw;
+    color: #111;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 4.8vw;
+    font-weight: 500;
+    height: 10.667vw;
+    line-height: 10.667vw;
+}
+
+.zy-intro .show-btn[data-v-74ba40ca] {
+    height: 10.667vw;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-size: 3.467vw;
+    color: #999;
+    letter-spacing: 0;
+    text-align: center;
+}

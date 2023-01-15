@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>icon/icon_fold_1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/icon_fold_1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/icon_unfold_1" fill="#C0C4CC">
+            <path d="M16.0513208,9.41975343 L26.5645287,19.5534977 C27.1451571,20.113169 27.1451571,21.0205753 26.5645287,21.5802466 C25.9839002,22.1399178 25.0425155,22.1399178 24.4618871,21.5802466 L15,12.4598767 L5.53811291,21.5802466 C4.95748447,22.1399178 4.01609977,22.1399178 3.43547133,21.5802466 C2.85484289,21.0205753 2.85484289,20.113169 3.43547133,19.5534977 L13.9486792,9.41975343 C14.5293077,8.86008219 15.4706923,8.86008219 16.0513208,9.41975343 Z" id="Path" transform="translate(15.000000, 15.500000) scale(1, -1) translate(-15.000000, -15.500000) "></path>
+        </g>
+    </g>
+</svg>

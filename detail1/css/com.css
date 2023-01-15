@@ -1,0 +1,46 @@
+img {
+    border: 0 none
+}
+
+img {
+    display: inline-block;
+    vertical-align: bottom;
+    -ms-interpolation-mode: bicubic
+}
+
+img::shadow div {
+    border: none !important
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/*配置广告位*/
+.ad_pos {
+    z-index: 999999;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ad_pos_close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: url(../img/ad_cf_close.png) no-repeat center;
+}
+
+.ad_pos_close:hover {
+    background: url(../img/ad_a_close.png) no-repeat center;
+}
+
+.ad_pos_bbg {
+    width: 100%;
+    background-color: #051223;
+    opacity: 0.9;
+    left: 0;
+    z-index: 999998;
+}

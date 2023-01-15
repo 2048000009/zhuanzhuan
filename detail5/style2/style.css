@@ -1,0 +1,30 @@
+.demo-gallery {
+      margin: 20px auto;
+      background-color: #ccc;
+      width: 360px
+      text-align: center;
+      
+  }
+  
+  .demo-gallery a {
+      display: block;
+      float:left;
+      margin: 0 12px 12px 0;
+      line-height: 0;
+  }
+  
+  
+  
+  
+  
+  .demo-gallery img {
+      max-width: auto;
+    max-width: 100%;
+      height: auto;
+      border: 0;
+      
+  }
+  
+  .demo-gallery figure {
+      display: none;
+  }

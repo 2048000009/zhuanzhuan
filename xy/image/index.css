@@ -1,0 +1,291 @@
+*{margin:0;padding:0;list-style:none;text-decoration:none;}
+html{
+    font-size:62.5%;
+    width: 100%;
+    height: 100%;
+}
+body{overflow-y: hidden;
+	width: 100%;
+    height: 100%;
+    font-size:1.5rem;
+    overflow:hidden;
+}
+.app{
+	width:100%;
+	height:100%;
+	font-size:1.5rem;
+	background:#f5f6fa;
+	overflow:scroll;
+  -webkit-overflow-scrolling : touch;
+  overflow-scrolling : touch;
+}
+.head{
+	width:100%;
+	background:#fff;
+	margin: 0 auto;
+	height:4rem;
+	font-size:1.7rem;
+	border-bottom:0.2rem solid #e9eaec;
+}
+.head-xiao{
+	width:90%;
+	height:100%;
+	margin: 0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.head-xiao img{
+	width:1.5rem;
+	vertical-align:middle;
+}
+.gouA{
+	width:100%;
+	background:#f5f6fb;
+	font-size:1.4rem;
+	margin-top:1rem;
+}
+.gouA-top{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	background:#fff;
+}
+.gouA-top-left img{
+	width:8rem;
+}
+.gouA-top-right{
+	width:100%;
+	margin:0 1rem;
+}
+.gouA-top-right .diyi{
+	margin-top:1rem;
+}
+.gouA-top-right .dier{
+	font-weight:bold;
+	font-size:1.6rem;
+	margin-top:1.3rem;
+	color:#f64442;
+}
+.gouB{
+	width:100%;
+	background:#fff;
+	margin-top:1rem;
+}
+.gouB_a{
+	width:92.4%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#909090;
+	padding:1rem 0;
+}
+.gouB_a-right{
+	display:flex;
+	align-items:center;
+	font-size:1.2rem;
+	text-align:right;
+}
+.gouB_a-left{
+	font-size:1.6rem;
+}
+.gouB_a-right img{
+	width:1.3rem;
+	margin-left:2rem;
+}
+.gouB_b{
+	width:100%;
+	border-top: 0.15rem solid #e9eaec;
+}
+.gouB_b-top{
+	width:92.4%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#909090;
+	padding:1rem 0;
+	font-size:1.6rem;
+}
+.hong{
+	font-weight:bold;
+	color:#f64442;
+}
+
+.Switch {
+	padding:0.5rem 0;
+	display:flex;
+	justify-content:space-between;
+	}
+.Switch li {
+	clear: both;
+	line-height: 42px;
+	list-style: none;
+	}
+.Switch input {
+	display: none
+	}
+.Switch label {
+	width: 41px;
+	background: #fff;
+	height: 21px;
+	border-radius: 13px;
+	float: right;
+	border:0.1rem solid #eee;
+	}
+.Switch label em {
+	width: 19px;
+	height: 19px;
+	float: left;
+	margin: 1px;
+	border-radius: 13px;
+	box-shadow: 2px 3px 8px rgba(0,0,0,.1);
+	background: #FFF;
+	}
+.Switch input:checked + label {
+	background: #06f318;
+	}
+.Switch input:checked + label em {
+	float: right;
+	}
+.Switch input:disabled + label {
+	opacity: 0.5
+	}
+.gouC{
+	background:#fff;
+	margin-top:1rem;
+}
+.gouC_a{
+	width:92.4%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	font-size:1.6rem;
+	padding-top:1rem;
+}
+.gouC_a_left{
+	display:flex;
+	align-items:center;
+}
+.gouC_a_left-a .span_a{
+	text-decoration:line-through;
+	font-size:1.1rem;
+	color:#909090;
+}
+.gouC_a_left-b{
+	margin-left:1rem;
+}
+.gouC_b{
+	width:92.4%;
+	margin:0 auto;
+	padding-top:1rem;
+	padding-bottom:1.5rem;
+}
+
+.gouC_b-top .spana{
+	background:#fef7f1;
+	color:#eaba6c;
+	font-size:1.2rem;
+	padding:0.5rem;
+	border-radius:0.2rem;
+}
+.spana2{
+	display:inline-block;
+	width:0.1rem;
+	height:0.8rem;
+	background:#ddd;
+	margin:0 0.5rem;
+}
+.gouC_c{
+	width:92.4%;
+	margin:0 auto;
+	padding-top:0.5rem;
+	border-top: 0.15rem solid #e9eaec;
+}
+.gouC_c ul{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.gouC_c ul li{
+	width:20%;
+	text-align:center;
+}
+.liA_a{
+	text-align:center;
+	
+}
+
+.liA_a img{
+	display:inline-block;
+	width:4.2rem;
+	height:4.2rem;
+	border-radius:50%;
+	padding:0.2rem;
+}
+.liA_a-hei{
+	font-size:1.4rem;
+	margin-top:0.2rem;
+}
+.liA_a-hui{
+	font-size:1.2rem;
+	color:#909090;
+	margin-top:0.5rem;
+}
+.gouC_c li .li-zhong{
+	color: #909090;
+	font-size:1.2rem;
+	border-bottom:0.1rem solid #e9eaec;
+	margin:0 1rem;
+	margin-top:1.5rem;
+}
+.gouC_d{
+	width:92.4%;
+	margin:0 auto;
+	padding:1rem 0;
+	font-size:1.5rem;
+	color:#909090;
+	}
+.gouC_d span{
+	color:#6fc9f6;
+}
+.foot{
+	width:100%;
+	height:5rem;
+	background:#fff;
+	line-height:5rem;
+	position:fixed;
+	bottom:0;
+	left:0;
+	font-size:1.5rem;
+	display:flex;
+}
+.foot-right{
+	position: absolute;
+	right:0;
+	top:0;
+	width:11rem;
+	height:5rem;
+}
+.foot-right div{
+	display:inline-block;
+	width:100%;
+	height:5rem;
+	outline:none;
+	border:none;
+	background: #fe4543;
+	font-size:1.3rem;
+	color:#fff;
+	text-align:center;
+}
+.foot-left{
+	margin-left:1.7rem;
+}
+
+.gouD{
+	width:100%;
+	height:2rem;
+	background:#f5f6fa;
+}

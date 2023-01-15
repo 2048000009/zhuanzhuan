@@ -1,0 +1,45 @@
+﻿* { margin: 0; padding: 0; }
+body, html { background: #E6E6E6; height: 100%; width: 100%; font-family: "微软雅黑"; }
+h4, h5, h6, h1, h2, h3 { margin: 0; padding: 0; }
+ul, ol { margin: 0; }
+p { margin: 0; }
+ul, li, html, body { font-size: 100%; background: #f2f2f2; margin: 0; padding: 0; list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+.wap { height: 100%; display: flex; flex-direction: column; background: white; }
+
+.head { width:100%; height:40px; position:relative; box-sizing:border-box; background: white; flex: 0; align-items: center; padding: 0 15px; }
+.head-item0 { flex: 1; display: flex; align-items: center; justify-content: center; color: #ff5061; font-weight: 600; font-size: 21px; }
+.head-item0 .price-mark { font-s	ize: 11px;  display: flex; height: 22px; align-items: flex-end; margin-left:40px; }
+.head-item1 { flex: 0; flex-basis: auto; position:absolute; left:10px; top:10px; }
+.head-item1 > img { height: 20px; }
+.head-item2 { flex: 0; flex-basis: 30px; text-align: center; }
+.head-item2 > img { height: 20px; }
+
+.foot { background: #ffffff; flex: 0; flex-basis: 48px; display: flex; align-items: center; padding: 0 5px; }
+.foot-item1 { flex: 0; flex-basis: auto; padding: 5px 10px; text-align: center; align-items: center; }
+.foot-item1 .love { margin-bottom:2px; height: 16px; background: url("image/love-gray.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/image/love-gray.png*/ no-repeat; background-size: auto 18px; background-position: center center; }
+.foot-item1 .love.active { height: 16px; background: url("image/love-red.png")/*tpa=http://zhuanzhuan.58.bbg5.cn/image/love-red.png*/ no-repeat; background-size: auto 16px; background-position: center center; }
+/*.foot-item1 .love.active { animation: myMovie 5s; -moz-animation: myMovie 5s;  -webkit-animation: myMovie 5s;  -o-animation: myMovie 5s;}*/
+.foot-item1 > p { font-size: 10px; color: #747272; }
+.foot-item2 { flex: 0.9; height: 33px; color: #ffffff; display: flex; justify-content: center; align-items: center; border-radius: 37px; margin-left: 37%; font-weight: bold; }
+.foot-item2:nth-of-type(2) { background: #feb70c; }
+.foot-item2:nth-of-type(4) { background: #ff5654; }
+
+.whiteBga {
+    background: white;
+    padding: 0.38rem;
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+.shop {
+    border-bottom: 0px solid #edeae8;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    height: 0px;
+    display: block;
+    clear: both;
+}

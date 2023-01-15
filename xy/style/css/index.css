@@ -1,0 +1,238 @@
+﻿b{
+	font-weight: normal;
+}
+.whiteBg{
+	background: white;
+	padding: 0.62rem;
+	margin-bottom: 0.5rem;
+}
+.goodTitle{
+	display:block;
+	width:100%;
+	color: #43474c;
+}
+.goodTitle span{
+	display:block;
+	font-size: 0.7rem;
+	float:left;
+	font-weight: bold;
+}
+.goodTitle dl{
+	font-size: 0.6rem;
+	display:block;
+	float:right;
+	line-height:45px;
+}
+.goodTitle i{
+	display:block;
+	font-size: 1.2rem;
+	font-style:normal;
+	float:right;
+	font-family: "microsoft yahei";
+	line-height:15px;
+}
+.goodPrice{
+	margin: 0.37rem 0 0.25rem 0;
+}
+.goodPrice p span:nth-child(1){
+color: #ff3c3c;
+font-size: 0.7rem;	
+}
+.goodPrice p span:nth-child(1) em{
+font-size: 1.12rem;
+}
+.goodPrice p span:nth-child(2){
+color: #999999;
+font-size: 0.55rem;
+} 
+.goodPrice .skim{
+color: #999999;
+font-size: 0.55rem;
+margin-top: 0.6rem;
+}
+.location span{
+	background: #f2f3f6;
+	border-radius: 0.72rem;
+	padding: 0.15rem 0.55rem;
+	font-size: 0.55rem;
+	color: #7b828b;
+}
+.location span em{
+	color: #999999;
+}
+.location img{
+	width: 0.6rem;
+	margin-top: -0.1rem;
+}
+.describe{
+	margin:0.6rem 0 0.2rem 0;
+}
+.describe li{
+	float: left;
+	width: 50%;
+	font-size: 0.55rem;
+	color: #666666;
+	margin-bottom: 0.3rem;
+}
+.describe li span:nth-child(1){
+	color: #999999;
+}
+.personIntro,.personIntroAll{
+	font-size: 0.6rem;
+	line-height: 0.87rem;
+	text-align: justify;
+	
+}
+.spread em{
+	color: #6da5ff;
+}
+.personIntroAll{
+	display: none;
+}
+.personIntroAll div{
+	text-align: center;
+	color: #6da5ff;
+	font-size: 0.55rem;
+}
+.picBox img{
+	width: 100%;
+	margin-top: 0.5rem;
+}
+.rankImg li{
+	float: left;
+	width: 48%;
+	height: 5.5rem;
+	margin-top: 0.5rem;
+}
+.rankImg li:nth-child(2n){
+	margin-left: 0.5rem;
+}
+.rankImg li img{
+	width: 100%;
+	height: 100%;
+	
+}
+.satisfy span:nth-child(1){
+	color: #00B65E;
+	font-size: 0.6rem;
+}
+.satisfy span:nth-child(2){
+	color: #999999;
+	font-size: 0.55rem;
+}
+.satisfy span:nth-child(2) img{
+	width: 0.5rem;
+}
+.promise{
+	margin-top: 0.2rem;
+}
+.promise li{
+	float: left;
+	color: #999999;
+	font-size: 0.5rem;
+	margin-right: 0.5rem;
+}
+.promise li span{
+	margin-right: 0.2rem;
+}
+.client span{
+	color: #999999;
+	margin-right: 0.2rem;
+}
+.creditBox{
+	margin: 0 0.62rem;
+	padding-bottom: 0.62rem;
+}
+.rightIcon{
+	width: 0.5rem;
+	margin-top: 0.7rem;
+}
+.deal li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.deal li span{
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+.deal li span em{
+	font-size: 0.5rem;
+	font-weight: normal;
+}
+.deal li p{
+	color: #999999;
+	font-size: 0.55rem;
+}
+.question{
+	width: 0.55rem;
+	margin-left: 0.2rem;
+	margin-top: -0.1rem;
+}
+.dredge{
+	width: 2.5rem;
+}
+.expecial{
+	margin-bottom: 0.5rem;
+}
+.timeBefore{
+	margin-left: 0.2rem;
+	color: #999999;
+}
+.msgName .floorHost:nth-child(2),.floorHost{
+	margin-left: 0.2rem;
+	background: #fff2d2;
+	color: #f9a553;
+	display: inline-block;
+	padding: 0.05rem 0.2rem;
+	font-size: 0.42rem;
+}
+.reply{
+	font-size: 0.6rem;
+	margin: 0.3rem 0;
+}
+.reply .altCilent{
+	color: #62a5ff;
+}
+.oldWord{
+	color: #999999;
+	font-size: 0.6rem;
+	margin-bottom: 0.5rem;
+}
+.oldWord .shu{
+	height: 0.53rem;
+	width: 0.15rem;
+	background: #999999;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+.inputTxt{
+	width: 88%;
+	min-height: 2rem;
+	border: none;
+	background: #f4f4f4;
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	font-size: 0.6rem;
+	display: none;
+}
+.rate h3{
+	font-weight: normal;
+}
+.rate p{
+	margin-bottom: 0.5rem;
+	text-align: justify;
+}
+.rate .cankao{
+	color: #999999;
+	font-size: 0.5rem;
+}
+.rate input{
+	background: white;
+	color: #6da5ff;
+	margin: 0;
+	font-size: 0.6rem;
+	width: 100%;
+	border-top: 1px solid #EEEEEE;
+}

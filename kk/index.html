@@ -1,0 +1,112 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>主宰者QQ卡框工具</title>
+    <meta name="keywords" content="主宰者系统卡框工具">
+    <meta name="description" content="本程序仅供学习参考，切勿违法使用，因个人违规使用所造成的违法行为与本程序作者无关">
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="assets/Base64.js" language="JavaScript"></script>
+    <noscript>&lt;link rel="stylesheet" href="assets/noscript.css" /&gt;</noscript>
+  	<style type="text/css">
+      div > section > div > input{margin-top:5px;text-transform:none;}
+      div > section > div > div > a{color:red}
+      .shareid{  
+           width:90%;
+           height:95%;
+             position: absolute;  
+             left: 1px;   
+             top: 1px;    
+           border-radius:1px;
+           border:1px solid #d8d8d8;
+         } 
+      select::-ms-expand{ display: none; }
+      select{
+           appearance:none;  
+          -moz-appearance:none;  
+          -webkit-appearance:none;
+           background: url("assets/arrow.png") no-repeat scroll right center transparent;
+
+      }
+  	</style>
+  </head>
+  <body class="">
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Main -->
+          <section id="main">
+            <div>
+              <span class="logo">主宰者</span>
+              <p>主宰者卡框自定义工具（仅支持安卓手机端）</p>
+            </div>
+            <div>
+              <input type="text" id="title" placeholder="这是标题">
+              <input type="text" id="description" placeholder="这是描述">
+              <input type="text" id="imgurl" placeholder="这是图片地址">
+              <input type="text" id="url" placeholder="这是链接地址">
+            
+              
+              <div style="position:relative; margin-top:5px;">  
+              <select onchanges="document.getElementById('shareid').value=this.value" id="id_type">  
+                <optgroup label="请选择小尾巴">  
+                <option value="1103991616">交易猫</option>  
+                <option value="1104903352">转转</option>
+                <option value="100273020">京东</option>  
+                <option value="1104790111">拼多多</option>
+                <option value="100880748">苏宁易购</option>
+                </optgroup>
+              </select>  
+              <input id="shareids"  class="shareid" placeholder="这是小尾巴" style="text-indent:15px"  />    
+              <input id="shareid" type="hidden" name="shareid" />  
+              </div> 
+              
+              <br>
+              <input class="btn" type="button" id="shorten" value="生成">
+              <p></p>
+              
+              <div>
+                <span>如遇卡框失败请下载低版本QQ</span><br>
+                <a href="">如还不行可联系作者</a>
+              </div>
+            </div>
+
+          </section>
+
+        <!-- Footer -->
+          <footer id="footer">
+            <ul class="copyright">
+            </ul>
+            <span><a>免责声明：本程序仅供学习参考，切勿违法使用，因个人违规使用所造成的违法行为与本程序作者无关。</a></span>
+          </footer>
+      </div>
+
+      <script>
+        $('#id_type')[0].selectedIndex = -1;
+        if ('addEventListener' in window) {
+          window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+          document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+        $('#shorten').click(function(){
+          var b = new Base64();
+          var basetitle = b.encode($('#title').val());
+          var basedesc = b.encode($('#description').val());
+          var baseimage = b.encode($('#imgurl').val());
+          var baseurl = b.encode($('#url').val());
+          var shareid = $('#shareid').val();
+          window.parent.frames.location.href = "mqqapi://share/to_fri?file_type=news&src_type=web&version=1&generalpastboard=1&share_id=" + shareid + "&url=" + baseurl + "&previewimageUrl=" + baseimage + "&image_url=" + baseimage + "&title=" + basetitle + "&description=" + basedesc + "&callback_type=scheme&thirdAppDisplayName=UVE=&app_name=UVE=&cflag=0&shareType=0";
+        });
+		$(function(){
+			$("#id_type").on('change',function(){
+				$("#shareids").val( $(this).find(":selected").text() );
+				$("#shareid").val( $(this).val() );
+			})
+		})
+      </script>
+	  
+
+  
+</body></html>

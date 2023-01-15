@@ -1,0 +1,1 @@
+var $sensorsDataProject=document.getElementById("sensorDataProject").value||"";
